@@ -17,6 +17,7 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.4.1
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
+	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -27,10 +28,9 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible
-	github.com/shirou/gopsutil/v3 v3.22.7 // indirect
 	github.com/showwin/speedtest-go v1.1.5
 	github.com/sirupsen/logrus v1.8.1
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.7.0
 	github.com/tylertreat/BoomFilters v0.0.0-20210315201527-1a82519a3e43
 	github.com/wealdtech/go-ens/v3 v3.5.2
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
@@ -39,5 +39,3 @@ require (
 	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.27.1
 )
-
-replace github.com/shirou/gopsutil v3.21.11+incompatible => ./mypack/gopsutil

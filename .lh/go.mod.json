@@ -1,0 +1,22 @@
+{
+    "sourceFile": "go.mod",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1660144879651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1660144912303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n \tgithub.com/goccy/go-json v0.9.4\r\n \tgithub.com/golang-jwt/jwt/v4 v4.4.1\r\n \tgithub.com/golang/mock v1.6.0\r\n \tgithub.com/golang/protobuf v1.5.2\r\n-\tgithub.com/google/go-cmp v0.5.6 // indirect\r\n \tgithub.com/google/uuid v1.3.0\r\n \tgithub.com/gorilla/mux v1.8.0\r\n \tgithub.com/hashicorp/go-multierror v1.1.1\r\n \tgithub.com/ipfs/go-cid v0.1.0\r\n@@ -27,11 +26,12 @@\n \tgithub.com/kr/pretty v0.3.0 // indirect\r\n \tgithub.com/patrickmn/go-cache v2.1.0+incompatible\r\n \tgithub.com/rogpeppe/go-internal v1.8.0 // indirect\r\n \tgithub.com/shirou/gopsutil v3.21.11+incompatible\r\n+\tgithub.com/shirou/gopsutil/v3 v3.22.7 // indirect\r\n \tgithub.com/showwin/speedtest-go v1.1.5\r\n \tgithub.com/sirupsen/logrus v1.8.1\r\n-\tgithub.com/stretchr/testify v1.7.0\r\n+\tgithub.com/stretchr/testify v1.8.0\r\n \tgithub.com/tylertreat/BoomFilters v0.0.0-20210315201527-1a82519a3e43\r\n \tgithub.com/wealdtech/go-ens/v3 v3.5.2\r\n \tgolang.org/x/sync v0.0.0-20210220032951-036812b2e83c\r\n \tgolang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect\r\n"
+                }
+            ],
+            "date": 1660144879651,
+            "name": "Commit-0",
+            "content": "module github.com/forta-network/forta-core-go\r\n\r\ngo 1.16\r\n\r\nrequire (\r\n\tgithub.com/cenkalti/backoff/v4 v4.1.2\r\n\tgithub.com/cespare/xxhash/v2 v2.1.2 // indirect\r\n\tgithub.com/d4l3k/messagediff v1.2.1 // indirect\r\n\tgithub.com/ethereum/go-ethereum v1.10.16\r\n\tgithub.com/go-openapi/errors v0.20.2\r\n\tgithub.com/go-openapi/runtime v0.23.3\r\n\tgithub.com/go-openapi/spec v0.20.5 // indirect\r\n\tgithub.com/go-openapi/strfmt v0.21.2\r\n\tgithub.com/go-openapi/swag v0.21.1\r\n\tgithub.com/go-openapi/validate v0.21.0\r\n\tgithub.com/goccy/go-json v0.9.4\r\n\tgithub.com/golang-jwt/jwt/v4 v4.4.1\r\n\tgithub.com/golang/mock v1.6.0\r\n\tgithub.com/golang/protobuf v1.5.2\r\n\tgithub.com/google/go-cmp v0.5.6 // indirect\r\n\tgithub.com/google/uuid v1.3.0\r\n\tgithub.com/gorilla/mux v1.8.0\r\n\tgithub.com/hashicorp/go-multierror v1.1.1\r\n\tgithub.com/ipfs/go-cid v0.1.0\r\n\tgithub.com/ipfs/go-ipfs-api v0.3.0\r\n\tgithub.com/kelseyhightower/envconfig v1.4.0\r\n\tgithub.com/kr/pretty v0.3.0 // indirect\r\n\tgithub.com/patrickmn/go-cache v2.1.0+incompatible\r\n\tgithub.com/rogpeppe/go-internal v1.8.0 // indirect\r\n\tgithub.com/shirou/gopsutil v3.21.11+incompatible\r\n\tgithub.com/showwin/speedtest-go v1.1.5\r\n\tgithub.com/sirupsen/logrus v1.8.1\r\n\tgithub.com/stretchr/testify v1.7.0\r\n\tgithub.com/tylertreat/BoomFilters v0.0.0-20210315201527-1a82519a3e43\r\n\tgithub.com/wealdtech/go-ens/v3 v3.5.2\r\n\tgolang.org/x/sync v0.0.0-20210220032951-036812b2e83c\r\n\tgolang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect\r\n\tgoogle.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect\r\n\tgoogle.golang.org/grpc v1.44.0\r\n\tgoogle.golang.org/protobuf v1.27.1\r\n)\r\n\r\nreplace github.com/shirou/gopsutil v3.21.11+incompatible => ./mypack/gopsutil\r\n"
+        }
+    ]
+}
